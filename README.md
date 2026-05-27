@@ -53,22 +53,6 @@ LEN(SUBSTITUTE(SocialMedia[Tweet]," ",""))
 +1
 ```
 
-## Note
-
-Some task conditions resulted in limited or no matching records after applying all required filters from the dataset, including:
-
-### Task 1
-- Tweet word count greater than 40
-
-### Task 2
-- Even impression filter
-- Tweets excluding the letter 'D'
-- Tweet time filter between 9 AM and 5 PM
-
-The DAX formulas and filtering logic were implemented correctly according to the given task requirements.
-
-## Additional Enhancement
-- Added an interactive Month Slicer and KPI cards for better dashboard filtering and user interaction.
 
 ## Files Included
 - Power BI Dashboard (.pbix)
